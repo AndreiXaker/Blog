@@ -1,0 +1,27 @@
+.headerLink {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+.headerIcon{
+    margin-right: 8px;
+}
+.Title {
+    text-align: center;
+}
+
+.ImageContainer {
+    text-align: center;
+}
+.ImagePage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+p {
+    text-align: center;
+
+}

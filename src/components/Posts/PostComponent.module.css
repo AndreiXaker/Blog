@@ -1,0 +1,97 @@
+.post {
+    padding: 10px;
+    border: 1px solid #F5F5DC;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+    grid-auto-rows: minmax(100px,auto);
+    max-width: 100%;
+
+}
+
+.imagePosts {
+    object-fit: cover;
+    padding: 0;
+    height: 50%;
+    width: 100%;
+}
+
+.title {
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+}
+.titleAndReactions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.reactions {
+    padding: 3px;
+    display: flex;
+    gap: 4px;
+
+}
+.reaction {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+.iconUp {
+    font-size: 20px;
+    cursor: pointer; /* Добавляет указатель курсора, чтобы показать, что иконка кликабельна */
+    transition: color 0.3s; /* Плавное изменение цвета */
+}
+
+.iconUp:hover {
+    color: green; /* Цвет иконки при наведении */
+}
+
+.iconDown {
+    font-size: 20px;
+    cursor: pointer; /* Добавляет указатель курсора, чтобы показать, что иконка кликабельна */
+    transition: color 0.3s; /* Плавное изменение цвета */
+}
+
+.iconDown:hover {
+    color: red; /* Цвет иконки при наведении */
+}
+.liked {
+    color: #28a745; /* Зеленый цвет для активного лайка */
+}
+
+.disliked {
+    color: #dc3545; /* Красный цвет для активного дизлайка */
+}
+.readMore {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 1px;
+    background-color: #f5f5f5;
+    border : 1px solid black;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s, color 0.2s;
+    float: right;
+}
+
+.readMorButton:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+.counter {
+    color: black;
+}
+.postWide {
+    grid-column: span 2;
+}
